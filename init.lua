@@ -211,14 +211,6 @@ require('lualine').setup {
   extensions = {}
 }
 
--- templates
-vim.cmd [[
-autocmd BufNewFile ~/Sandbox/Atcoder/*/*.cpp :0r ~/.config/nvim/templates/atcoder.cpp
-autocmd BufNewFile ~/Sandbox/ant/*.cpp :0r ~/.config/nvim/templates/atcoder.cpp
-autocmd BufNewFile ~/Sandbox/paiza/*.go :0r ~/.config/nvim/templates/paiza.go
-autocmd BUfNewFile ~/Workspace/oj/*.go :0r ~/.config/nvim/templates/paiza.go
-]]
-
 -- nerdtree
 vim.keymap.set('n', '<Leader>n', '<cmd>NERDTreeFocus<CR>')
 vim.keymap.set('n', '<C-n>', '<cmd>NERDTree<CR>')
